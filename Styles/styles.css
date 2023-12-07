@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(19, 18, 18)
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: rgb(172, 24, 159), 0, 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 1cm;
+    /* color: deeppink; */
+    color: #F0C62F;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: auto;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    height: 75px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-style: none;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: #F0C62F;
+}
+
+
+#inicio {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1cm;
+    margin: 5px;
+    border-radius: 10px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: white;
+    background-image: url(../Multimedia/bg-hero.png);
+    background-size: cover;
+}
+#inicio p {
+    font-size: 100px;
+}
+
+li {
+    color: white;
+}
+
+
+.contenedor-categoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.categoria {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-categoria {
+    color: #F0C62F;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+
+
+
+
+.contenedor-imagenes-nuestas-papas{
+    /* border: 1px solid #f00; */
+    display: flex;
+    margin-top: 50px;
+}
+.contenedor-imagenes-nuestas-papas div{
+    width: 50vw;
+}
+.imagenes-categorias{
+    width: 600px;
+    border-radius: 10px;
+    margin-left: calc(50% - 300px);
+
+}
+.contenedor-imagenes-papas-movil{
+    margin-bottom: 50px;
+}
+.contenedor-imagenes-papas-movil div{
+    width: 800px;
+    margin-left: calc(50vw - 400px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contenedor-imagenes-papas-movil div p{
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+
+
+h3 {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-item {
+    padding: 20px;
+    text-align: center;
+    border-right: 1px solid white;
+}
+.footer-item:last-child {
+    border-right: none;
+}
+.footer-item h3 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #F0C62F;
+}
+
+.footer-item p {
+    margin: 0;
+    font-size: 1.5em ;
+}
